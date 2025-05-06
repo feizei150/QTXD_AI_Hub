@@ -27,4 +27,21 @@ QTXD_WebPlatform/
 
 # 忽略虚拟环境
 venv/
+# 忽略数据文件# 忽略所有子模块文件夹
+QTXD_AI_system/
+QTXD_DataAssistant/
+QTXD_Finance_Private/
+QTXD_PartySummarizer/
+QTXD_WebPlatform/
+
+# 忽略虚拟环境
+venv/
+
+# 忽略常规文件
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+*.sqlite3
+.vscode/
 # 忽略数据文件

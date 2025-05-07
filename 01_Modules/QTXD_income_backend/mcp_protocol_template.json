@@ -1,0 +1,16 @@
+{
+    "agent": "summary_agent",
+    "action": "generate_summary",
+    "data": {
+      "input_file": "zhihu_hotlist.txt",
+      "output_file": "summary_result.txt",
+      "notion": {
+        "title": "知乎热榜摘要",
+        "platform": "知乎",
+        "url": "https://www.zhihu.com/hot",
+        "heat": "N/A",
+        "grab_time": "2025-05-07"
+      }
+    }
+  }
+  

@@ -1,0 +1,48 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoint
+<<<<<<< HEAD
+.ipynb_checkpoints/
+=======
+.ipynb_checkpoints
+>>>>>>> a4ab139 ( 添加上传脚本，完善自动提交体系)
+
+# VS Code 设置文件
+.vscode/
+
+# 虚拟环境
+venv/
+
+# 环境变量或私密配置
+.env
+*.env
+*.json.secret
+config/settings_local.py
+
+<<<<<<< HEAD
+# 配置或私密信息
+config/settings_local.py
+config/*.secret.json
+
+# 日志与输出
+*.log
+*.bak
+*.tmp
+outputs/
+logs/
+
+# 系统文件
+=======
+# 日志文件
+*.log
+*.txt~
+
+# 临时文件
+*.swp
+*.bak
+>>>>>>> a4ab139 ( 添加上传脚本，完善自动提交体系)
+.DS_Store
+Thumbs.db

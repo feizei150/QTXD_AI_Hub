@@ -1,22 +1,27 @@
+# 忽略所有中文命名 .bat 文件（包含中文或 emoji 的）
+*上传*.bat
+*更新*.bat
+*压缩*.bat
+*环境*.bat
+*开发*.bat
+*控制台*.bat
+*入口*.bat
 
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-venv/
-.env
-
-# Jupyter
-.ipynb_checkpoints
-
-# VSCode
-.vscode/
-*.code-workspace
-
-# Mac / Windows
+# 忽略临时/系统文件
+*.log
+*.tmp
 .DS_Store
 Thumbs.db
 
-# Logs / Cache
-*.log
-.cache/
+# 忽略 VS Code 工作区配置（仅限本地）
+.vscode/
+*.code-workspace
+
+# Python 虚拟环境
+venv/
+env/
+__pycache__/
+*.pyc
+
+# 打包生成
+*.zip

@@ -1,0 +1,26 @@
+QTXD_AI_Hub/
+├── 00_CORE/                # 核心配置与入口脚本
+│   └── main.py            # 🌟 系统总入口，运行主菜单
+├── 01_Modules/            # 各类模块化功能
+│   ├── QTXD_AI_system/           # 自动赚钱模块（爬虫 + 总结 + Notion）
+│   ├── QTXD_DataAssistant/       # 数据分析模块（上传文件、分析输出）
+│   ├── QTXD_WebPlatform/         # 网站前端展示系统
+│   ├── QTXD_PartySummarizer/     # 党建总结生成器
+│   ├── QTXD_Finance_Private/     # 财务记录与自动统计模块
+│   ├── QTXD_video_automation/    # 视频内容生成与剪辑脚本
+│   ├── QTXD_task_fetcher/        # 副业任务抓取与关键词过滤器
+│   ├── QTXD_spider_tasks/        # 各平台热榜爬虫集合
+│   ├── QTXD_schedule/            # 定时任务调度与 GitHub Actions
+│   ├── QTXD_notion_tasks/        # 统一 Notion 写入模块
+│   ├── QTXD_income_backend/      # 后端接口聚合控制器
+│   └── QTXD_AI_obsidian/         # 本地知识库 + Obsidian 同步脚本
+├── 02_Deployment/         # 项目部署文件（Docker, Nginx, etc）
+├── 03_Docs/               # 项目说明书、结构图、对照表
+│   └── 模块中文名称对照表.md
+├── 04_Robot_AI_Lab/       # 智能体实验区（实验模型 / 流程原型）
+├── .gitignore             # 忽略文件配置
+├── README.md              # 项目首页说明
+├── requirements.txt       # 依赖清单
+├── upload_to_github.bat   # 一键上传到 GitHub
+├── pull_from_github.bat   # 一键拉取远程内容
+└── install_requirements.bat  # 自动创建虚拟环境 + 安装依赖
